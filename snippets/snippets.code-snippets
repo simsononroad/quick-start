@@ -1,12 +1,28 @@
 {
     "python_quick_start":{
-        "prefix": "!generate",
+        "prefix": "!start",
         "body": [
             "def main():",
             "   ${1:pass}",
             "$0",
             "if __name__  == '__main__':",
             "   main()"
+        ],
+        "description": "Create a python base file"
+    },
+    "flask_quick_start":{
+        "prefix": "!start_flask",
+        "body":[
+            "from flask import Flask, render_template, redirect, url_for, flash",
+            "$0",
+            "app = Flask(__name__)",
+            "$0",
+            "app.route('/')",
+            "def index():",
+            "   return render_template('${1:index.html}')",
+            "$0",
+            "if __name__ == '__main__':",
+            "   app.run(debug=True)"
         ],
         "description": "Create a python base file"
     }
