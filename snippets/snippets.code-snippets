@@ -3,7 +3,8 @@
         "prefix": "!generate",
         "body": [
             "def main():",
-            "   pass${1:content}",
+            "   ${1:pass}",
+            "$0",
             "if __name__  == '__main__':",
             "   main()"
         ],

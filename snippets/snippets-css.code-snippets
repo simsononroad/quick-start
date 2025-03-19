@@ -1,0 +1,11 @@
+{
+    "python_quick_start":{
+        "prefix": "!generate",
+        "body": [
+            ":root{",
+            "   --bg-color: ${1:white}",
+            "}"
+        ],
+        "description": "Create a css base file"
+    }
+}

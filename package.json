@@ -6,6 +6,11 @@
   "engines": {
     "vscode": "^1.98.0"
   },
+  "publisher": "Simson ON The Road",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simsononroad/quick-start"
+  },
   "categories": [
     "Snippets"
   ],
@@ -16,12 +21,8 @@
         "path": "./snippets/snippets.code-snippets"
       },
       {
-        "language": "html",
-        "path": "./snippets/snippets.code-snippets"
-      },
-      {
-        "language": "css",
-        "path": "./snippets/snippets.code-snippets"
+        "language": "stylesheet",
+        "path": "./snippets/snippets-css.code-snippets"
       }
     ]
   }
