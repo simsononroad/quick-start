@@ -1,0 +1,12 @@
+{
+    "python_quick_start":{
+        "prefix": "!generate",
+        "body": [
+            "def main():",
+            "   pass${1:content}",
+            "if __name__  == '__main__':",
+            "   main()"
+        ],
+        "description": "Create a python base file"
+    }
+}
